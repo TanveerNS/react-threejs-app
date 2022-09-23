@@ -2,14 +2,14 @@ import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import BoxC from '../../components/Box'
 const Box = () => {
-  return (
-    <Canvas>
-    <ambientLight />
-    <pointLight position={[10, 10, 10]} />
-    <BoxC position={[-1.2, 0, 0]} />
-    <BoxC position={[1.2, 0, 0]} />
-  </Canvas>
-  )
+    return (
+        <Canvas>
+            <ambientLight />
+            <pointLight position={[10, 10, 10]} />
+            <BoxC position={[-1.2, 0, 0]} />
+            <BoxC position={[1.2, 0, 0]} />
+        </Canvas>
+    )
 }
 
 export default Box
